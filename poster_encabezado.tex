@@ -1,0 +1,34 @@
+\newcommand\hfrac[2]{\genfrac{}{}{0pt}{}{#1}{#2}}
+
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=100pt % This is the amount of white space between the columns in the poster
+\columnseprule=3pt % This is the thickness of the black line between the columns in the poster
+
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+
+\usepackage{times} % Use the times font
+%\usepackage{palatino} % Uncomment to use the Palatino font
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Location of the graphics files
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{bm}
+\usepackage{ragged2e}
+\usepackage{float} % para que los gr\'aficos se queden en su lugar con [H]
+\usepackage[subrefformat=parens]{subcaption} % para \begin{subfigure}
+\usepackage{tikz} % Para graficar, por ejemplo bayes networks
+% \usepackage{xr}
+% \externaldocument{supplementary}
+\setlength{\columnseprule}{0pt}
+
+\addtolength{\textwidth}{40pt}
+\addtolength{\oddsidemargin}{-40pt}
+ 
+\usepackage[absolute,overlay]{textpos} 
+\setlength{\TPHorizModule}{1cm} %86cm
+\setlength{\TPVertModule}{1cm}	%
+
+\usepackage{mathtools} % \coloneqq
