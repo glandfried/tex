@@ -1,0 +1,39 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{movie15}
+
+\title[Your Short Title]{Your Presentation}
+\author{You}
+\institute{Where You're From}
+\date{Date of Presentation}
+
+\begin{document}
+
+\begin{frame}
+sarasa
+\end{frame}
+
+\begin{frame}
+\includemovie[
+  poster,
+  text={\small(video.avi)}
+]{6cm}{6cm}{video.avi}
+\end{frame}
+
+\begin{frame}
+sarasa
+\end{frame}
+
+\end{document}
